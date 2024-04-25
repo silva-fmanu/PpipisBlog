@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Heebo:wght@100..900&family=Luckiest+Guy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #16161A;
+}
+
+.header{
+    background-color:#fffffe;
+}
+
+a.logo{
+    color:#7f5af0;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 3.1em;
+    transition: all 1ms;
+}
+
+a.logo:hover{
+    color: #7f5af0;
+}
+
+button.sing-up{
+    background-color:#2cb67d;
+    border-radius: 12px;  
+    border-style: solid;
+    border-color: #2cb67d;
+    padding: 5%;
+    width: 5rem;
+    transition: all 0.25s;
+    font-family: "Heebo", sans-serif;
+}
+
+button.sing-up:hover{
+  background-color: #63d3a4;
+  transform: scale(105%);
+}
+
+
+
+img.social-midias{
+    width: 2rem;
+   
+}
+
+.nav-item{
+    margin:  0  1rem  0;
+}
+
+.categorias{
+    background-color:#94A1B2;
+    padding: 0.2%;
+    font-family: "Heebo", sans-serif ;
+}
+
+a.list-categorias{
+    text-decoration: none;
+    color: #242629; 
+    transition: all 5ms;
+}
+
+a.list-categorias:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    
+}
+
+/*.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }*/
+
+  /*
+  
+.dosis-<uniquifier> {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+/*
+.heebo-<uniquifier> {
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+  
