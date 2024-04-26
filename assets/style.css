@@ -27,14 +27,15 @@ a.logo:hover{
 
 button.sing-up{
     background-color:#2cb67d;
-    border-radius: 12px;  
+    border-radius: 10px;  
     border-style: solid;
     border-color: #2cb67d;
-    padding: 5%;
-    width: 5rem;
+    padding: 2%;
     transition: all 0.25s;
     font-family: "Heebo", sans-serif;
+    color: azure;
 }
+
 
 button.sing-up:hover{
   background-color: #63d3a4;
@@ -48,7 +49,7 @@ img.social-midias{
    
 }
 
-.nav-item{
+.nav-item {
     margin:  0  1rem  0;
 }
 
