@@ -27,18 +27,18 @@ a.logo:hover{
 
 button.sing-up{
     background-color:#2cb67d;
-    border-radius: 10px;  
+    border-radius: 5px;  
     border-style: solid;
     border-color: #2cb67d;
     padding: 2%;
     transition: all 0.25s;
     font-family: "Heebo", sans-serif;
     color: azure;
+    margin-left: 1%;
 }
 
 
 button.sing-up:hover{
-  background-color: #63d3a4;
   transform: scale(105%);
 }
 
@@ -69,6 +69,20 @@ a.list-categorias:hover{
     text-decoration: none;
     color: rgb(0, 0, 0); 
     
+}
+
+.card{
+    background-color: #242629;
+}
+
+h2.posts-title{
+    font-size: 3em;
+    color: #7f5af0;
+    font-family: "Luckiest Guy", cursive;
+}
+
+.card{
+    background-color: #94A1B2;
 }
 
 /*.luckiest-guy-regular {
