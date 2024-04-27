@@ -8,6 +8,7 @@
 
 .body{
     background-color: #16161A;
+    overflow-x: hidden;
 }
 
 .header{
@@ -18,18 +19,20 @@ a.logo{
     color:#7f5af0;
     font-family: "Luckiest Guy", cursive;
     font-size: 3.1em;
-    transition: all 1ms;
+    transition: all 5ms;
 }
 
 a.logo:hover{
-    color: #7f5af0;
+    color:#7f5af0;
+    transform: scale(105%);
 }
+
+
 
 button.sing-up{
     background-color:#2cb67d;
     border-radius: 5px;  
-    border-style: solid;
-    border-color: #2cb67d;
+    border-style: none;
     padding: 2%;
     transition: all 0.25s;
     font-family: "Heebo", sans-serif;
@@ -40,14 +43,20 @@ button.sing-up{
 
 button.sing-up:hover{
   transform: scale(105%);
+  background-color:#239767;
 }
 
 
 
 img.social-midias{
     width: 2rem;
-   
+   transition: all 5ms;
 }
+
+img.social-midias:hover{
+    transform: scale(105%);
+}
+
 
 .nav-item {
     margin:  0  1rem  0;
@@ -71,20 +80,88 @@ a.list-categorias:hover{
     
 }
 
+h2.title-of-all{
+    font-family: "Luckiest Guy", cursive;
+    color: #6b4cca;
+    font-size: 4.5rem;
+}
+
+p.subtitle{
+    color: #fffffe;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 10%;
+}
+
+p.litle-text{
+    color:#fffffe;
+    margin-right: 10%;
+}
+
+#home-presentation{
+   margin: 3rem;
+}
+
+.home-image{
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
+a.btnHome-reading{
+    background-color:#2cb67d; 
+     color: rgb(24, 24, 24);
+     font-family: "Dosis", sans-serif;
+     font-weight: 500;
+}
+
+a.btnHome-reading:hover{
+    background-color:#239767; 
+    color: rgb(0, 0, 0);
+    transform: translateX(3%);
+}
+
+
+
 .card{
     background-color: #242629;
+    transition: all 0.3s;
+}
+
+.card:hover{
+    transform:translatey(-3%);
+    transform: scale(110%);
 }
 
 h2.posts-title{
+    margin-top: 1rem;
     font-size: 3em;
     color: #7f5af0;
     font-family: "Luckiest Guy", cursive;
 }
 
-.card{
-    background-color: #94A1B2;
+h5.card-title{
+   font-family: "Dosis", sans-serif;
+   color: #239767;
 }
 
+p.card-text{
+    color: #fffffe;
+    font-weight: 350;
+}
+
+a.btnCard-reading{
+
+   background-color: #7f5af0; 
+    color: rgb(24, 24, 24);
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+}
+
+a.btnCard-reading:hover{
+    background-color:#6b4cca; 
+    color: black;
+    transform: translateX(3%);
+}
 /*.luckiest-guy-regular {
     font-family: "Luckiest Guy", cursive;
     font-weight: 400;
