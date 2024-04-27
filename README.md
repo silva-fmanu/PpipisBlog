@@ -1,1 +1,1 @@
-Blog consumindo api( futuramente)
+Cute blog templante!
