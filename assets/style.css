@@ -84,6 +84,7 @@ h2.title-of-all{
     font-family: "Luckiest Guy", cursive;
     color: #6b4cca;
     font-size: 4.5rem;
+    margin-right: 3rem;
 }
 
 p.subtitle{
@@ -95,9 +96,11 @@ p.subtitle{
 
 p.litle-text{
     color:#fffffe;
-    margin-right: 10%;
+    margin-right: 6rem;
     text-align: justify;
 }
+
+
 
 #home-presentation{
    margin: 3rem;
@@ -192,14 +195,24 @@ footer{
 }
 
 .post-information{
-    margin-left: 8rem;
+    margin-left: 4.5rem;
+    margin-right: 0;
     font-size: 1.1rem;
     text-align: justify;
 }
 
-.home-image.single-post{
-    margin-left: 8rem;
+.title-of-all.singlepost-title{
+    margin-top: 1rem;
 }
+
+
+@media (max-width: 515px) {
+    h2.title-of-all{
+        font-size: 3.5rem;
+    }
+  }
+  
+
 
 
 /*.luckiest-guy-regular {
