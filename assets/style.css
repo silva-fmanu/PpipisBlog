@@ -96,6 +96,7 @@ p.subtitle{
 p.litle-text{
     color:#fffffe;
     margin-right: 10%;
+    text-align: justify;
 }
 
 #home-presentation{
@@ -162,6 +163,45 @@ a.btnCard-reading:hover{
     color: black;
     transform: translateX(3%);
 }
+
+.individual-text{
+    margin-top: 100%;
+}
+
+footer{
+    background-color:#fffffe;
+    margin-top: 1rem;
+    font-family: "Luckiest Guy", cursive;
+    color: #6b4cca;
+    padding-top: 1rem;
+}
+
+.contact-text{
+    font-family: "Dosis", sans-serif;
+    font-weight: 800;
+}  
+
+.contact-link{
+    text-decoration: none;
+    color: #6b4cca;
+}
+
+.contact-link:hover{
+    text-decoration: none;
+    color: #4e349e;
+}
+
+.post-information{
+    margin-left: 8rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.home-image.single-post{
+    margin-left: 8rem;
+}
+
+
 /*.luckiest-guy-regular {
     font-family: "Luckiest Guy", cursive;
     font-weight: 400;
