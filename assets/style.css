@@ -34,7 +34,7 @@ button.sing-up{
     border-radius: 5px;  
     border-style: none;
     padding: 2%;
-    transition: all 0.25s;
+    transition: all 5ms;
     font-family: "Heebo", sans-serif;
     color: azure;
     margin-left: 1%;
